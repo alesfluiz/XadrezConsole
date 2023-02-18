@@ -10,9 +10,14 @@ namespace Tabuleiro
 
         public Tabuleir(int linhas, int colunas)
         {
-            this.Linhas = linhas;
-            this.Colunas = colunas;
+            Linhas = linhas;
+            Colunas = colunas;
             Pecas = new Peca[Linhas, Colunas];
         }
+        public Peca Pecai(int linha, int coluna)
+        {
+            return Pecas[linha, coluna];
+        }
+
     }
 }

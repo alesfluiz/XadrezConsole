@@ -10,7 +10,7 @@ namespace XadrezConsole
         {
             Tabuleir tab = new Tabuleir(8, 8);
 
-
+            Tela.ImprimirTabuleiro(tab);
 
         }
     }

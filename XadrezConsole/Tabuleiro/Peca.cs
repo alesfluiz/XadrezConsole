@@ -11,10 +11,10 @@ namespace Tabuleiro
 
         public Peca(Posicao posicao, Tabuleir tab, Cor cor)
         {
-            this.Posicao = posicao;
-            this.Cor = cor;
-            this.QteMovimentos = 0;
-            this.Tab = tab;
+            Posicao = posicao;
+            Cor = cor;
+            QteMovimentos = 0;
+            Tab = tab;
         }
     }
 }
