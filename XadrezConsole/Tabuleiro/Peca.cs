@@ -12,9 +12,14 @@ namespace Tabuleiro
         public Peca(Tabuleir tab, Cor cor)
         {
             Posicao = null;
+            Tab = tab;
             Cor = cor;
             QteMovimentos = 0;
-            Tab = tab;
+            
+        }
+        public void IncrementarQteMovimentos()
+        {
+            QteMovimentos++;
         }
     }
 }
